@@ -16,6 +16,8 @@ Ex. one of my professor's homepages
 
 ### `localhost:8888/www.cs.toronto.edu/~ylzhang/`
 
+NOTE: cached files will be stored in the same directory as webproxy.py so I suggest putting it into a folder for easier cleanup.
+
 Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server work its magic.
 
 Now the second time you visit the same page, the proxy will try to grab cached non-expired files instead of directly trying to connect to the actual page.
