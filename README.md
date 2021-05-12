@@ -14,7 +14,7 @@ Ex. one of my professor's homepages
 
 ### `localhost:8888/www.cs.toronto.edu/~ylzhang/`
 
-Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server do work its magic.
+Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server work its magic.
 
 # Misc Notes
 code for forwarding HTTP requests and responses based on: 
