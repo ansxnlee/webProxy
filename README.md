@@ -13,7 +13,8 @@ https://steelkiwi.com/blog/working-tcp-sockets/
 
 cacheing is by my own monkey design where i just write whatever i get from recv() to files and read
 from them when they exist instead of trying to connect a client socket to a url
-tried messing with injecting pages with new data but there seems to be some bugs
+
+I tried messing with injecting pages with new data but there seems to be some bugs
 (most likely not doing the decoding of some encountered items properly)
 
 # ---KNOWN ERRORS---
