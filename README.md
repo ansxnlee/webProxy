@@ -1,10 +1,10 @@
 # webProxy
 
-# ---PROGRAM DESCRIPTION---
+# Program desc
 This program is a "simple" TCP server on localhost:8888 that receives HTTP requests sent
 from browser clients.
 
-# ---Progress notes---
+# Misc Notes
 code for forwarding HTTP requests and responses based on: 
 https://pymotw.com/3/socket/tcp.html
 
@@ -17,7 +17,7 @@ from them when they exist instead of trying to connect a client socket to a url
 I tried messing with injecting pages with new data but there seems to be some bugs
 (most likely not doing the decoding of some encountered items properly)
 
-# ---KNOWN ERRORS---
+# Known Errors
 -sometimes get a socket closed error but its super random and i cant seem to replicate it
 -restarting server/client connection seems to "fix" it and client will try requesting stuff again
 
