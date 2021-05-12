@@ -4,6 +4,18 @@
 This program is a "simple" TCP server on localhost:8888 that receives HTTP requests sent
 from browser clients.
 
+# usage
+
+### `python3 webProxy.py [positive integer]`
+
+When the servers up, open your favourite web browser (your fav is google chrome) and go onto some HTTP site through localhost 8888
+
+Ex. one of my professor's homepages
+
+### `localhost:8888/www.cs.toronto.edu/~ylzhang/`
+
+Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server do work its magic.
+
 # Misc Notes
 code for forwarding HTTP requests and responses based on: 
 https://pymotw.com/3/socket/tcp.html
