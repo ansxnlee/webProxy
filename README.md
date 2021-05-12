@@ -19,6 +19,7 @@ I tried messing with injecting pages with new data but there seems to be some bu
 
 # Known Errors
 -sometimes get a socket closed error but its super random and i cant seem to replicate it
+
 -restarting server/client connection seems to "fix" it and client will try requesting stuff again
 
 tested on google chrome (ver. 88.0.4324.96 (Official Build)(x86_64)) on a macbook pro (Catalina ver. 10.15.7)
