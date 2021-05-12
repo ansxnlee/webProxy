@@ -8,6 +8,8 @@ from browser clients.
 
 ### `python3 webProxy.py [positive integer]`
 
+The integer arguement determines when cached items expire in seconds.
+
 When the servers up, open your favourite web browser (your fav is google chrome) and go onto some HTTP site through localhost 8888
 
 Ex. one of my professor's homepages
@@ -15,6 +17,8 @@ Ex. one of my professor's homepages
 ### `localhost:8888/www.cs.toronto.edu/~ylzhang/`
 
 Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server work its magic.
+
+Now the second time you visit the same page, the proxy will try to grab cached non-expired files instead of directly trying to connect to the actual page.
 
 # Misc Notes
 code for forwarding HTTP requests and responses based on: 
