@@ -14,9 +14,7 @@ When the servers up, open your favourite web browser (your fav is google chrome)
 
 Server can be (safely?) killed by sending a SIGINT or just ending the process.
 
-Ex. one of my professor's homepages
-
-### `localhost:8888/www.cs.toronto.edu/~ylzhang/`
+Ex. one of my professor's homepages [localhost:8888/www.cs.toronto.edu/~ylzhang/](localhost:8888/www.cs.toronto.edu/~ylzhang/)
 
 NOTE: cached files will be stored in the same directory as webproxy.py so I suggest putting it into a folder for easier cleanup.
 
