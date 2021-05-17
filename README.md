@@ -16,9 +16,9 @@ Server can be (safely?) killed by sending a SIGINT or just ending the process.
 
 # example page
 
-one of my professor's homepages [http://localhost:8888/www.cs.toronto.edu/~ylzhang/](http://localhost:8888/www.cs.toronto.edu/~ylzhang/)
+NOTE: cached files will be stored in the same directory as webproxy.py so I suggest moving it into a folder or something for easier cleanup.
 
-NOTE: cached files will be stored in the same directory as webproxy.py so I suggest putting it into a folder for easier cleanup.
+one of my professor's homepages [http://localhost:8888/www.cs.toronto.edu/~ylzhang/](http://localhost:8888/www.cs.toronto.edu/~ylzhang/)
 
 Fun tip: Open chrome's dev tools (F12) and go on the 'Network' tab to see the server work its magic.
 
